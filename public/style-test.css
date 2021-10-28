@@ -1,0 +1,28 @@
+body{
+    background-image: url('home-background.jpg');
+    background-size: cover;
+}
+header{
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    letter-spacing: 2px;
+}
+.nav-item a:hover{
+    color: yellow;
+}
+.container-fluid a{
+    color: white;
+    font-weight: bold;
+}
+.dropdown-item li a{
+    color: black;
+}
+.navbar-toggler-icon{
+    border: 5px solid rgb(255, 255, 255);
+    background-color: rgb(77, 11, 11);
+    padding: 15px;
+}
+
+/* .ms-1 {
+    margin-left: ($spacer * .25) !important;
+  } */

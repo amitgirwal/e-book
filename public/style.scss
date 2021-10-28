@@ -1,0 +1,63 @@
+body{
+    background-image: url('home-background.jpg');
+    background-size: cover;
+}
+header{
+    letter-spacing: 2px;
+    .nav-item a:hover{
+        color: rgb(255, 255, 116);
+    }
+    .container-fluid a{
+        color: white;
+        font-weight: bold;
+    }
+    .dropdown-item li a{
+        color: black;
+    }
+    .navbar-toggler-icon{
+        color: white;
+        font-size: 40px;
+    }
+    .dropdown-menu a{
+        color: black;
+    }
+    .dropdown-menu a:hover{
+        color: rgb(68, 68, 68);
+    }
+}
+
+main{
+    .bookish{
+        h1{
+            font-size: 70px;
+            font-family: 'Oswald', sans-serif;
+        }
+        margin-top: 100px;
+        padding-top: 130px;
+        width: 400px;
+        height: 350px;
+        border-radius: 50%;
+        background: rgba(0, 0, 0, 0.521);
+    }
+    .col-lg-6 .mt{
+        margin-top: 170px;
+        h1{
+            font-size: 60px;
+            width: max-content;
+        }
+        p{
+            letter-spacing: 3px;
+            font-weight: 500;
+        }
+    }
+}
+@media only screen and (min-width: 1200px) {
+    header {
+      margin-bottom: -60px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    header {
+      background-color: rgb(0, 5, 51);
+    }
+}
